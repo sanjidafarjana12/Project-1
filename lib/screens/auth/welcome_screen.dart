@@ -97,7 +97,7 @@ class WelcomeScreen extends StatelessWidget {
                   const SizedBox(height: 18),
 
                   const Text(
-                    'Your next opportunity starts here.',
+                    'Smarter Money Management Starts Here.',
                     textAlign: TextAlign.center,
                     style: TextStyle(
                       color: AppColors.secondaryText,

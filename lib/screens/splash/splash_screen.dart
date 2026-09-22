@@ -117,7 +117,7 @@ class _SplashScreenState extends State<SplashScreen>
                       const SizedBox(height: 18),
 
                       Text(
-                        'Unlock. Discover. Achieve.',
+                        'Track.Plan.Progress',
                         style: TextStyle(
                           color: Colors.white.withValues(
                             alpha: 0.62,

@@ -18,28 +18,28 @@ class OnboardingData {
 
 const List<OnboardingData> onboardingPages = [
   OnboardingData(
-    title: 'Discover',
-    highlight: 'Opportunities',
+    title: 'Know Where It Goes',
+    highlight: 'Every Expense Matters',
     description:
-        'Explore thousands of scholarships, internships and jobs from around the world.',
+        'Keep track of your spending, understand your habits, and stay clear about where your money goes.',
     image: 'assets/images/1.jpeg',
     icon: Icons.auto_awesome_outlined,
   ),
 
   OnboardingData(
-    title: 'Find What',
-    highlight: 'Fits You',
+    title: 'Take Control',
+    highlight: 'Plan With Purpose',
     description:
-        'Filter by your preferences, skills, location and more to discover opportunities made for you.',
+        'Set budgets, manage your goals, and make smarter decisions with your money every day.',
     image: 'assets/images/2.jpeg',
     icon: Icons.tune_rounded,
   ),
 
   OnboardingData(
-    title: 'Build Your',
-    highlight: 'Future',
+    title: 'Turn Goals Into Progress',
+    highlight: 'A Stronger Financial Future',
     description:
-        'Save, track and apply with confidence. AspireX helps you move closer to your goals.',
+        'Build better habits, reach your savings goals, and make every financial step count.',
     image: 'assets/images/3.jpeg',
     icon: Icons.trending_up_rounded,
   ),

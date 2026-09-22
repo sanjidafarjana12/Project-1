@@ -1,4 +1,6 @@
+
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 import '../constants/app_colors.dart';
 
@@ -18,8 +20,8 @@ class AppLogo extends StatelessWidget {
       mainAxisSize: MainAxisSize.min,
       children: [
         Text(
-          'AspireX',
-          style: TextStyle(
+          'Fort Vault',
+          style: GoogleFonts.playwriteUsModern(
             color: AppColors.primaryText,
             fontSize: fontSize,
             fontWeight: FontWeight.w400,
@@ -30,7 +32,7 @@ class AppLogo extends StatelessWidget {
         if (showTagline) ...[
           const SizedBox(height: 5),
           Text(
-            'YOUR FUTURE, WITHIN REACH',
+            'YOUR MONEY, YOUR FORTRESS',
             style: TextStyle(
               color: AppColors.roseGold,
               fontSize: 8,
